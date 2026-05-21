@@ -1,0 +1,6 @@
+bill_amount = float(input("Enter the bill amount:"))
+paid_amount = float(input("Enter the paid amount:"))
+
+Due_amount = bill_amount - paid_amount
+
+print("Due amount=", Due_amount)
